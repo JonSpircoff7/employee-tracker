@@ -16,10 +16,10 @@ const db = mysql.createConnection(
     // MySQL username,
     user: 'root',
     // TODO: Add MySQL password here
-    password: '',
+    password: 'Godmyrock26!',
     database: 'movies_db'
   },
-  console.log(`Connected to the movies_db database.`)
+  console.log(`Connected to the database.`)
 );
 
 // Create a movie
